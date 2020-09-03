@@ -30,6 +30,12 @@ Este estudo irá focar principalmente nas áreas dessas ferramentas de desenvolv
 
 ## Problemas para montar ambiente e replicar issues
 
+É comum na areá da computação se deparar com a necessidade de criação de ambientes de trabalho únicos para a implementação de um projeto, esta é uma tarefa simples quando uma funcionalidade esta sendo criada, porém ao replicar *issues* esse processo se torna um pouco mais complexo.
+
+Todo projeto é iniciado com ideias do seu criador, essas ideias são feitas a partir de ferramentas, e as mesmas necessitam de um ambiente único para aquela junção de componentes. Quando alguém conhece todas as ferramentas utilizadas e sabe de suas necessidades, montar um ambiente de trabalho para aquele projeto pode não ser um problema muito grande, todavia quando estamos falando de contribuição com projetos de *software livre*, ou ajudar a responder duvidas de terceiros em sites como o *Stack Overflow* você pode conhecer o problema e até mesmo algumas funcionalidades, porém todos os detalhes que dificultam a criação de um ambiente de trabalho é difícil de se possuir.
+
+Outro problema enfrentado para replicar ambientes de trabalho é que maquinas com sistemas operacionais (SO) diferentes podem gerar ambientes de trabalhos distintos. Isto faz com que surja um nível de complexidade maior na geração de SO, pois mesmo que o criador de uma *issue* tente ajudar na criação do mesmo e coloque algum tipo de tutorial ou tabela de ferramentas que devem ser instaladas, as mesmas precisam ser feitas para *Windowns*, *Linux*, *Mac* ou qualquer outro sistema operacional que possa ser utilizado para a implementação do seu projeto, o que muitas vezes gera um trabalho grande de mais para um problema que poderia ser respondido com bem menos.
+
 ## Virtualização em Software Livre
 
 Uma das tecnologias que vem crescendo no mercado de tecnologia para virtualização de aplicações é o Docker, utilizado em *deploys* de aplicações com o conceito de containers, diferentemente do método tradicional com máquinas virtuais rodando para manter a aplicação, o Docker se destaca pela praticidade e capacidade de gerenciamento de memória e processamento. O seu funcionamento está, como mostrado na FIGURA
